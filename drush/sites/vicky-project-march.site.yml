@@ -1,0 +1,6 @@
+local:
+    root: /var/www/vicky-project-march/docroot
+    uri: 'http://local.vicky-project-march.com'
+    host: local.vicky-project-march.com
+    user: vagrant
+    ssh: { options: '-o StrictHostKeyChecking=no -o PasswordAuthentication=no -i $HOME/.vagrant.d/insecure_private_key' }
